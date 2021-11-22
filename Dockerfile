@@ -1,6 +1,6 @@
 FROM debian
 RUN apt update
-RUN apt install ssh curl wget npm nginx nano ttyd -y
+RUN apt install ssh curl wget npm nginx nano bash -y
 RUN npm install -g wstunnel
 RUN wget https://raw.githubusercontent.com/lhx11187/huochetou/main/default -O /etc/nginx/sites-available/default
 RUN wget -c -O /root/ttyd https://github.com/tsl0922/ttyd/releases/download/1.6.3/ttyd.x86_64
