@@ -30,7 +30,7 @@ RUN echo 'nohup ./v2ray &' >>/root/v2ray/start.sh
 RUN echo 'killall -9 webdav' >>/root/webdav/start.sh
 RUN echo './webdav -c ./config.yaml &' >>/root/webdav/start.sh
 RUN echo 'PermitRootLogin yes' >>  /etc/ssh/sshd_config 
-RUN echo root:7702843|chpasswd
+RUN echo root:password|chpasswd
 RUN chmod 755 /1.sh
 RUN chmod 755 /root/ttyd
 RUN chmod 755 /root/start.sh
