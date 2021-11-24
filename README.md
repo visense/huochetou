@@ -1,4 +1,5 @@
 # huochetou
+#### root password
 #### ttyd 7681  /ttyd/
 #### verysync 8886 /verysync/
 #### wstunnel 8888 /wstunnel/
